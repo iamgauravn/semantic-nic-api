@@ -1,0 +1,16 @@
+# FastAPI and Server
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# AI and Data Processing
+sentence-transformers==2.7.0
+scikit-learn==1.4.2
+numpy==1.26.4
+pandas==2.2.2
+
+# Core dependencies brought in by the libraries above
+# Listing them explicitly makes the environment more stable
+torch==2.2.2
+transformers==4.40.1
+pydantic==2.7.1
+starlette==0.37.2
